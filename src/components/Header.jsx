@@ -1,4 +1,4 @@
-import logo from "../assets/images/logo.png";
+import logo from "../assets/Images/logo.png";
 import {
   HiHome,
   HiMagnifyingGlass,
@@ -11,7 +11,7 @@ import HeaderItem from "./HeaderItem";
 import { useState } from "react";
 
 const Header = () => {
-  const [toggle, setToggle] = useState(false);
+    const [toggle, setToggle] = useState(false)
   const menu = [
     {
       name: "HOME",
@@ -55,19 +55,13 @@ const Header = () => {
           {menu.map((item, index) => {
             return index < 3 && <HeaderItem name="" icon={item.icon} />;
           })}
-          <div className="md:hidden" onClick={() => setToggle(!toggle)}>
-            <HeaderItem name={""} icon={HiDotsVertical} />
-            {toggle ? (
-              <div className="absolute mt-3 bg-[#121212] border-[1px] border-gray-700 p-3">
-                {menu.map((item, index) => {
-                  return (
-                    index > 2 && (
-                      <HeaderItem name={item.name} icon={item.icon} />
-                    )
-                  );
-                })}
-              </div>
-            ) : null}
+          <div className="md:hidden" onClick={()=>setToggle(!toggle)}>
+           <HeaderItem name={""} icon={HiDotsVertical} />
+           {toggle ?  <div className="absolute mt-3 bg-[#121212] border-[1px] border-gray-700 p-3">
+            {menu.map((item, index) => {
+            return index > 2 && <HeaderItem name={item.name} icon={item.icon} />;
+          })}
+            </div>:null}
           </div>
         </div>
       </div>
