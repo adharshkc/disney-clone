@@ -12,7 +12,7 @@ const Slider = () => {
     element.scrollLeft -= screenWidth - 110;
   };
   return (
-    <div>
+    <div className="">
       <HiChevronLeft
         className="hidden md:block text-white text-[30px] absolute
         mx-8 mt-[225px] cursor-pointer "

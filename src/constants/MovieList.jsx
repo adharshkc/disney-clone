@@ -9,3 +9,17 @@ export const movieList = [
   "https://img10.hotstar.com/image/upload/f_auto,q_90,w_1920/sources/r1/cms/prod/4963/1474963-i-c484075786f0",
 ];
 
+export const movies = [ 
+  "https://i.ytimg.com/vi_webp/YklvWrS7VzA/movieposter_en.webp",
+  "https://i.ytimg.com/vi_webp/3Fk9IFfYkEs/movieposter_en.webp",
+  "https://i.ytimg.com/vi_webp/vO2N0LGvhWc/movieposter_en.webp",
+  "https://i.ytimg.com/vi_webp/GZQlT5RgDVI/movieposter_en.webp",
+  "https://i.ytimg.com/vi_webp/-zPXY1ER-1w/movieposter_en.webp",
+  "https://i.ytimg.com/vi_webp/DbGWQBNrx6c/movieposter_en.webp",
+  "https://i.ytimg.com/vi_webp/NJZTCJKGyx4/movieposter.webp",
+  "https://i.ytimg.com/vi_webp/nHY0sjIK94k/movieposter_en.webp",
+  "https://i.ytimg.com/vi_webp/CJbL3Ve3JGQ/movieposter_en.webp",
+  "https://i.ytimg.com/vi_webp/fXLLVIpMVsA/movieposter_en.webp",
+  "https://i.ytimg.com/vi_webp/XoJKQqhCDEQ/movieposter_en.webp",
+  "https://i.ytimg.com/vi_webp/Df5XvoZQ5as/movieposter_en.webp"
+];
